@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container mb-5">
+      <nav class="navbar navbar-expand-sm bg-body-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fs-5 fw-semibold">
+              <li class="nav-item">
+                <a
+                  class="nav-link link-underline-light text-black"
+                  aria-current="page"
+                  href="#hello"
+                  >Say hello</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link-underline-light text-black"
+                  href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Hero -->
+    <div
+      class="container d-flex flex-column justify-content-between align-items-center"
+    >
+      <h1 class="fs-1 fw-semibold">
+        Frontend/Full Stack Developer on the making
+      </h1>
+      <h2 class="mb-5">Aggelos Papanagiotou</h2>
+      <div
+        class="photo d-flex flex-column justify-content-between align-items-center"
+      >
+        <img class="profile-img shadow-lg" src="./img/profile.jpg" alt="" />
+        <img class="d-block hero-img" src="./img/hero.png" alt="" />
+      </div>
+    </div>
+    <div class="main" id="hello">
+      <div class="container text-center">
+        <h2 class="text-white fw-bold pb-3">
+          Hello, I'm Aggelos. Welcome to my portfolio
+        </h2>
+        <p class="fs-5 text-white">
+          For the last five years, i'm actively studying on my free time to
+          become a Frontend -and why not a Full Stack- developer. I've started
+          building sites with no-code tools, such as Wordpress, and now i'm
+          trying to expand my knowledge with CSS/JS and their frameworks while
+          dipping my toes in the Web Dev world.
+        </p>
+      </div>
+    </div>
+    <div class="container shadow-lg skills bg-white" id="skills">
+      <h2 class="fw-semibold pb-5 text-center">Skills</h2>
+      <div
+        class="skills-wrapper text-center d-sm-flex justify-content-xl-around justify-content-sm-center align-items-center"
+      >
+        <div class="frontend skill-box">
+          <h3 class="pb-5 fw-semibold fs-2">Front-End</h3>
+          <ul class="list-unstyled">
+            <li>CSS 3 with SASS</li>
+            <li>Javascript</li>
+            <li>TailwindCSS/Bootstrap</li>
+            <li>Vue.JS</li>
+          </ul>
+        </div>
+        <div class="backend skill-box">
+          <h3 class="pb-5 fw-semibold fs-2">Back-End</h3>
+          <ul class="list-unstyled">
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>Web Apis</li>
+            <li>DBMS / MS SQL Server</li>
+          </ul>
+        </div>
+        <div class="other skill-box">
+          <h3 class="pb-5 fw-semibold fs-2">Other Skills</h3>
+          <ul class="list-unstyled">
+            <li>Version Control (GIT)</li>
+            <li>Docker</li>
+            <li>Wordpress/Woocommerce</li>
+            <li>
+              Basic Server Administration <br />
+              (Plesk/Cpanel)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container projects mb-5" id="projects">
+      <div class="projects-title text-center mb-5">
+        <h1>My Work/Projects</h1>
+        <p>
+          I'm still in learning process but you can find some of my personal
+          projects here
+        </p>
+      </div>
+      <div
+        class="project-tiles row row-cols-1 row-cols-lg-3 row-gap-1 col-gap-1"
+      >
+        <div class="card text-bg-dark col">
+          <img src="./img/angroid.jpg" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">Angroid.gr</h5>
+            <p class="card-text">
+              A greek Android Deals site, made on wordpress, and automated by
+              wp-all-import plugin
+            </p>
+            <a
+              href="https://www.angroid.gr/"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="card text-bg-dark col">
+          <img src="./img/omnifood.jpg" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">Omnifood</h5>
+            <p class="card-text">
+              A test project created while learning Advanced CSS with Udemy
+              Course "Learn modern HTML5, CSS3 and web design "
+            </p>
+            <a
+              href="https://omnifoodprojectgelos.netlify.app/"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="card text-bg-dark col">
+          <img src="./img/hotel.jpg" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">Hotel Theme</h5>
+            <p class="card-text">
+              Simple hotel theme, created with Tailwind css as a test project
+            </p>
+            <a
+              href="https://glittering-mooncake-9d7554.netlify.app/"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="card text-bg-dark col">
+          <img src="./img/pig.jpg" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">Pig Game</h5>
+            <p class="card-text">A simple dice game made with Javascript</p>
+            <a
+              href="https://chipper-elf-12a79e.netlify.app/"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="card text-bg-dark col">
+          <img src="./img/icodethis.jpg" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">iCodeThis</h5>
+            <p class="card-text">My completed icodeThis Challenges</p>
+            <a
+              href="https://icodethis.com/Aggepap"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="card text-bg-dark col">
+          <img src="./img/github.png" class="card-img bg-black" alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center"
+          >
+            <h5 class="card-title">Github</h5>
+            <p class="card-text">My Github link</p>
+            <a
+              href="https://github.com/aggepap"
+              class="btn btn-outline-light stretched-link"
+              >Visit</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-dark d-flex">
+      <span class="text-white py-2">
+        All rights reserved
+        <script>
+          document.write(/\d{4}/.exec(Date())[0]);
+        </script>
+        &copy;
+      </span>
+      <div class="contact text-white py-2 ms-auto d-flex gap-3">
+        <span class="">Find me around the internet:</span>
+        <a class="text-white" href="https://www.facebook.com/aggepapanagiotou/"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a class="text-white" href="https://x.com/aggepapDEV"
+          ><i class="bi bi-twitter-x"></i
+        ></a>
+        <a class="text-white" href="https://github.com/aggepap">
+          <i class="bi bi-github"></i
+        ></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

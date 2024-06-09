@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+.nav-link:hover {
+  color: #d9480f !important;
+  border-bottom: 2px solid #d9480f;
+}
+.nav-link {
+  border-bottom: 2px solid transparent;
+}
+.profile-img {
+  width: 133px;
+  height: 200px;
+  border-radius: 15px;
+}
+.hero-img {
+  filter: drop-shadow(30px 10px 25px #d9480f);
+  height: 50vh;
+}
+.main {
+  background-color: #d9480f;
+  padding: 200px 350px 350px 350px;
+}
+.skills {
+  padding: 60px 0;
+  margin-top: -150px;
+  margin-bottom: 150px;
+  border-radius: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+  transition: all 0.2s;
+}
+li:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  color: #d9480f;
+}
+.skill-box {
+  width: 33%;
+  height: 250px;
+}
+
+.card-img {
+  opacity: 10%;
+}
+
+.card:hover .card-img-overlay {
+  color: rgb(217, 72, 15) !important;
+}
+footer {
+  height: 50px;
+  padding: 0 100px 0 100px;
+}
+footer a:hover {
+  color: #d9480f !important;
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    padding: 200px 50px;
+  }
+}
